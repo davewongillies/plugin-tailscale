@@ -1,0 +1,6 @@
+complete -c tailscale --no-files --condition "__fish_use_subcommand" --arguments up --description "Connect to your Tailscale network"
+complete -c tailscale --no-files --condition "__fish_use_subcommand" --arguments down --description "Disconnect from Tailscale"
+complete -c tailscale --no-files --condition "__fish_use_subcommand" --arguments netcheck --description "Print an analysis of local network conditions"
+complete -c tailscale --no-files --condition "__fish_use_subcommand" --arguments status --description "Show state of tailscaled and its connections"
+complete -c tailscale --no-files --condition "__fish_use_subcommand" --arguments ping --description "Ping a host at the Tailscale layer, see how it routed"
+complete -c tailscale --no-files --condition "__fish_use_subcommand" --arguments version --description "Print Tailscale version"
